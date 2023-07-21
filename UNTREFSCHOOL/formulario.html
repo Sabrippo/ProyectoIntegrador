@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=5.0, user-scalable=yes">
+        <title>Educational registration form</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+        <link rel="stylesheet" href="/CSS/form.css">
+      </head>
+      <body>
+        <div class="main-block">
+          <div class="left-part">
+            <i class="fas fa-graduation-cap"></i>
+            <h1>UntrefSchool</h1>
+            
+          </div>
+          <form action="/registro" method="post">
+            <div class="title">
+              <i class="fas fa-pencil-alt"></i> 
+              <h2>Registro</h2>
+            </div>
+            <div class="info">
+              <input class="fname" type="text" name="name" placeholder="Nombre" required>
+              <input type="email" name="Email" placeholder="Email"required>
+              <input type="tel" name="Teléfono" placeholder="Teléfono"required>
+              <input type="password" name="name" placeholder="Password"required>
+              
+                <label for="mensaje"></label>
+                <textarea placeholder="Deje aquí su mensaje" name="mensaje" rows="4" cols="50"></textarea>            
+                          
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" name="checkbox" required><span>Acepto las <a href="https://www.w3docs.com/privacy-policy">Privacy Poalicy for W3Docs.</a></span>
+            </div>
+            <button type="submit" href="#">Enviar</button>
+            <input type="button" value="Volver" onclick="history.back()">
+
+          </form>
+        </div>
+      </body>
+    </html>
